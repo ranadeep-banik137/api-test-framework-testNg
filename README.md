@@ -1,6 +1,11 @@
-# customer-onboarding-POST-api
+# Framework name : api-test-framework-testng
 
-	As the api is based on onboarding customer, along with its customer details also to be hit as a post HTTPS call
+	The API is based on customer onboarding
+
+| Method | Api Endpoint | Call Details |
+|--------|--------------|--------------|
+| POST | api/customer | Post call to add customer details |
+| GET | api/customer/{id} | Get call to get particular customer details |
 
 ## Notes To Run Test Cases : 
 
@@ -46,7 +51,7 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 	
 + All test scenario details are mentioned above all the scenarios.	  
 
-## Schemas Available : 
+## Schemas Available For POST Call: 
 	
 	We can assume its request and response body schema as below format: 
 

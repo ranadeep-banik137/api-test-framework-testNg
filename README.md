@@ -1,4 +1,4 @@
-# api-test-framework-testNg
+# customer-onboarding-POST-api
 
 	As the api is based on onboarding customer, along with its customer details also to be hit as a post HTTPS call
 
@@ -38,6 +38,13 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 	For maven run we have to set -Dentity={anyname through which we can categorize the test call}
 	
 	For TestNg execution : set an environment variable as entity and set the value.
+
++ Entity categorization has been done just to categorize the required data such as Request Body file In properties file, schemas, test data files based on the API type/call
+	
+	Example : we have identified all the testdata inside src/main/resources/{defined entity value}/.....
+	Refer to the framework.
+	
++ All test scenario details are mentioned above all the scenarios.	  
 
 ## Schemas Available : 
 	

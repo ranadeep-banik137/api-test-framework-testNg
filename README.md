@@ -21,6 +21,7 @@
 | httpstatusvalidationtests | testFrame\src\test\java\com\project\api\testscenarios\httpstatusvalidationtests |
 
 + A Java restassured DSL has been created as a parent framework for executing the test flow.
+Need to import/add the jar in java libraries while setting up the the framework in IDE.
 
 |DSL Jar file name| File location|
 |-----------------|--------------|

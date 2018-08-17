@@ -23,6 +23,17 @@
 + A Java restassured DSL has been created as a parent framework for executing the test flow.
 Need to import/add the jar in java libraries while setting up the the framework in IDE.
 
+	Either it has to be added externally or has to set in The pom.xml along with the base directory path
+	Example : 
+	In pom.xml we have To add a dependency along with the system base directory
+	<dependency>
+    	<groupId>ProjectZen</groupId>
+    	<artifactId>community</artifactId>
+    	<scope>system</scope>
+    	<version>1</version>
+    	<systemPath>${basedir}\libs\ProjectZen.jar</systemPath>
+	</dependency>
+
 |DSL Jar file name| File location|
 |-----------------|--------------|
 | api-test-framework-model-v3.jar | testFrame\src\test\resources |

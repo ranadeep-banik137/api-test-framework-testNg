@@ -118,4 +118,4 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 #### Links to Schema : 
 + GET-RESPONSE-SCHEMA :	[GET-Response-Schema-File](https://github.com/ranadeep-banik137/api-test-framework-testNg/blob/FB-API-TEST-V1/src/main/resources/getcustomer/schemas/response-JSON-schema.json)
 + POST-RESPONSE-SCHEMA : [POST-Response-Schema-File](https://github.com/ranadeep-banik137/api-test-framework-testNg/blob/FB-API-TEST-V1/src/main/resources/postcustomer/schemas/response-JSON-schema.json)
-+ POST-REQUEST-SCHEMA : [POST-Reuest-Schema-File]{https://github.com/ranadeep-banik137/api-test-framework-testNg/blob/FB-API-TEST-V1/src/main/resources/postcustomer/schemas/request-JSON-schema.json)
++ POST-REQUEST-SCHEMA : [POST-Reuest-Schema-File](https://github.com/ranadeep-banik137/api-test-framework-testNg/blob/FB-API-TEST-V1/src/main/resources/postcustomer/schemas/request-JSON-schema.json)

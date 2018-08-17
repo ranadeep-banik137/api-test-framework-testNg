@@ -536,3 +536,6 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 		    }
 		  }
 		}
+		
+### Links to Schema : 
++ GET-RESPONSE-SCHEMA :	[Schema-file](https://github.com/ranadeep-banik137/api-test-framework-testNg/tree/FB-API-TEST-V1/src/main/resources/getcustomer/schemas)

@@ -26,13 +26,14 @@ Need to import/add the jar in java libraries while setting up the the framework 
 	Either it has to be added externally or has to set in The pom.xml along with the base directory path
 	Example : 
 	In pom.xml we have To add a dependency along with the system base directory
-	<dependency>
-    	<groupId>ProjectZen</groupId>
-    	<artifactId>community</artifactId>
-    	<scope>system</scope>
-    	<version>1</version>
-    	<systemPath>${basedir}\libs\ProjectZen.jar</systemPath>
-	</dependency>
+	
+		<dependency>
+	    	<groupId>api-test-framework</groupId>
+	    	<artifactId>test-v1</artifactId>
+	    	<scope>system</scope>
+	    	<version>1.0.0</version>
+	    	<systemPath>${basedir}\libs\api-test-framework-model-v3.jar</systemPath>
+		</dependency>
 
 |DSL Jar file name| File location|
 |-----------------|--------------|

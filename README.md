@@ -37,7 +37,7 @@ Need to import/add the jar in java libraries while setting up the the framework 
 
 |DSL Jar file name| File location|
 |-----------------|--------------|
-| api-test-framework-model-v3.jar | testFrame\src\test\resources |
+| api-test-framework-model-version-0.0.01.jar | testFrame\src\test\resources |
 
 + API Endpoint URI (Eg : /api/customers/{id}) has been initiated in test framework as per REST ASSURED Endpoint pattern
 where RestAssured.BASEPATH to be defined to ("/api") and RestAssured.BASE_URI is defined to ("/customer/{id}"). 

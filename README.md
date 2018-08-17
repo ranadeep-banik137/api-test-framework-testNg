@@ -53,13 +53,13 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 
 + Test has also been Categorized as per entity (it is the key of categorization)
 
-	For maven run we have to set -Dentity={anyname through which we can categorize the test call}
+		For maven run we have to set -Dentity={anyname through which we can categorize the test call}
 	
-	For TestNg execution : set an environment variable as entity and set the value.
+		For TestNg execution : set an environment variable as entity and set the value.
 
 + Entity categorization has been done just to categorize the required data such as Request Body file In properties file, schemas, test data files based on the API type/call
 	
-	Example : we have identified all the testdata inside src/main/resources/{defined entity value}/.....
+		Example : we have identified all the testdata inside src/main/resources/{defined entity value}/.....
 	Refer to the framework.
 	
 + All test scenario details are mentioned above all the scenarios.	  

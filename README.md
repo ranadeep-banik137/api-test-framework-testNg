@@ -93,6 +93,7 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 + Step 3 -> 
 	particular xml files can be hit while build. You can provide the xml file name need to execute on maven goals (Mandatorily). Eg : clean test -Dtest-execution-xml={name of The xml file}	
 	Build plugin has been introduced in pom.xml
+		
 		<plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-surefire-plugin</artifactId>

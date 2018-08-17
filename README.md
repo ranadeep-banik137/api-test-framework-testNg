@@ -104,7 +104,12 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 	      		</suiteXmlFiles>
 	      	</configuration>
 	      </plugin>
++ Step 4 -> 
+	Execution will be Successfully done.
 	
++ NOTES : Particular test method can also be hit through maven goal command : 
+
+		clean test -Dentity=getcustomer -Dtest=com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall#{method_name}
 
 ## Schemas Available For POST Call: 
 	

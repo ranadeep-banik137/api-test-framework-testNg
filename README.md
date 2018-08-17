@@ -111,7 +111,7 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 
 		clean test -Dentity=getcustomer -Dtest=com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall#{method_name}
 
-## Schemas Available For POST Call: 
+## Schemas Available For API Call: 
 	
 	We have assumed its request and response body schema as below format: 
 	

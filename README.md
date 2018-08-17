@@ -15,10 +15,10 @@
 
 |Package name| Package location|
 |------------|-----------------|
-| functionalvalidationtests | testFrame\src\test\java\com\project\api\testscenarios\functionalvalidationtests |
-| requestvalidationtests | testFrame\src\test\java\com\project\api\testscenarios\requestvalidationtests |
-| responsevalidationtests | testFrame\src\test\java\com\project\api\testscenarios\responsevalidationtests |
-| httpstatusvalidationtests | testFrame\src\test\java\com\project\api\testscenarios\httpstatusvalidationtests |
+| functionalvalidationtests | [functional-validation-test-location](https://github.com/ranadeep-banik137/api-test-framework-testNg/tree/FB-API-TEST-V1/src/test/java/com/project/api/testscenarios/functionalvalidationtests) |
+| requestvalidationtests | [request-validation-test-location](https://github.com/ranadeep-banik137/api-test-framework-testNg/tree/FB-API-TEST-V1/src/test/java/com/project/api/testscenarios/requestvalidationtests) |
+| responsevalidationtests | [response-validation-test-location](https://github.com/ranadeep-banik137/api-test-framework-testNg/tree/FB-API-TEST-V1/src/test/java/com/project/api/testscenarios/responsevalidationtests) |
+| httpstatusvalidationtests | [http-status-validation-test-location](https://github.com/ranadeep-banik137/api-test-framework-testNg/tree/FB-API-TEST-V1/src/test/java/com/project/api/testscenarios/httpstatusvalidationtests) |
 
 
 + Test class names has been categorized as per api call
@@ -46,7 +46,7 @@ Need to import/add the jar in java libraries while setting up the the framework 
 
 |DSL Jar file name| File location|
 |-----------------|--------------|
-| api-test-framework-model-version-0.0.03.jar | testFrame\src\test\resources |
+| api-test-framework-model-version-0.0.03.jar | [DL Jar File Location](https://github.com/ranadeep-banik137/api-test-framework-testNg/blob/FB-API-TEST-V1/src/test/resources/jar-suite/api-test-framework-model-version-0.0.03.jar) |
 
 + API Endpoint URI (Eg : /api/customers/{id}) has been initiated in test framework as per REST ASSURED Endpoint pattern
 where RestAssured.BASEPATH to be defined to ("/api") and RestAssured.BASE_URI is defined to ("/customer/{id}"). 

@@ -20,6 +20,15 @@
 | responsevalidationtests | testFrame\src\test\java\com\project\api\testscenarios\responsevalidationtests |
 | httpstatusvalidationtests | testFrame\src\test\java\com\project\api\testscenarios\httpstatusvalidationtests |
 
+
++ Test class names has been categorized as per api call
+
+| Class name | Http Method |
+|------------|-------------|
+| CustomerOnboarding_PostCall.java | POST |
+| CustomerOnboarding_GetCall.java | GET |
+
+
 + A Java restassured DSL has been created as a parent framework for executing the test flow.
 Need to import/add the jar in java libraries while setting up the the framework in IDE.
 

@@ -86,6 +86,24 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 	
 ## Run Tests Through Maven : 
 
++ Step 1 -> 
+	set environment variable "URL" - Pass the url to which api to be called
++ Step 2 -> 
+	entity can be set in maven goals while initiating maven build. Eg : clean test -Dentity=getcustomer
++ Step 3 -> 
+	particular xml files can be hit while build. You can provide the xml file name need to execute on maven goals (Mandatorily). Eg : clean test -Dtest-execution-xml={name of The xml file}	
+	Build plugin has been introduced in pom.xml
+		<plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-surefire-plugin</artifactId>
+	      <version>${maven-surefire-plugin-version}</version>
+	      	<configuration>
+	      		<suiteXmlFiles>
+	      			<suiteXmlFile>${test-executor-file-path}/${test-execution-xml}.xml</suiteXmlFile>
+	      		</suiteXmlFiles>
+	      	</configuration>
+	      </plugin>
+	
 
 ## Schemas Available For POST Call: 
 	

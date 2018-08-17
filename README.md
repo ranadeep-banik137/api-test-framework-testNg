@@ -46,7 +46,7 @@ Need to import/add the jar in java libraries while setting up the the framework 
 
 |DSL Jar file name| File location|
 |-----------------|--------------|
-| api-test-framework-model-version-0.0.01.jar | testFrame\src\test\resources |
+| api-test-framework-model-version-0.0.03.jar | testFrame\src\test\resources |
 
 + API Endpoint URI (Eg : /api/customers/{id}) has been initiated in test framework as per REST ASSURED Endpoint pattern
 where RestAssured.BASEPATH to be defined to ("/api") and RestAssured.BASE_URI is defined to ("/customer/{id}"). 
@@ -71,7 +71,21 @@ Based on the previous comments, We Append this three URLs (URL+BASEPATH + BASEUR
 		Example : we have identified all the testdata inside src/main/resources/{defined entity value}/.....
 	Refer to the framework.
 	
-+ All test scenario details are mentioned above all the scenarios.	  
++ All test scenario details are mentioned above all the scenarios.
+
+## Run Tests Through TestNG :
+
++ Step 1 ->
+	set environment variable "URL" - Pass the url to which api to be called
++ Step 2 ->
+	entity Variable is already put in the static block of every test class as property variable Cannot be set while testNg run.
++ Step 3 -> 
+	xml files available in "src/test/resources/test-suites/.." location. Need to customize as per the TEST run requirement. Introduced example xmls over there. You can add multiple testNg Files based on exeution form.
++ Step 4 ->
+	groups need to be introduced inside xml files as it categorizes which API Call to test for.
+	
+## Run Tests Through Maven : 
+
 
 ## Schemas Available For POST Call: 
 	

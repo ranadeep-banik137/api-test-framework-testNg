@@ -41,7 +41,7 @@ Need to import/add the jar in java libraries while setting up the the framework 
 	    	<artifactId>test-v1</artifactId>
 	    	<scope>system</scope>
 	    	<version>1.0.0</version>
-	    	<systemPath>${basedir}\libs\api-test-framework-model-v3.jar</systemPath>
+	    	<systemPath>${basedir}\src\test\resources\api-test-framework-model-version-0.0.03.jar</systemPath>
 		</dependency>
 
 |DSL Jar file name| File location|
